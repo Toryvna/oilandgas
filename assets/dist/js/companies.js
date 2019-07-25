@@ -6,7 +6,7 @@ $(document).ready(function(){
     $('.sort-list a').on('click', function(){
         $('.sort-list li').removeClass('active');
         $(this).parent().addClass('active');
-        $('.current-value').text($(this).text());
+        $('.current-value').html($(this).html());
         $('.sorting').removeClass('show');
     });
 
