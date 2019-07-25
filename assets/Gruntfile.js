@@ -23,7 +23,9 @@ grunt.initConfig({
 				'../markup/js/jquery.min.js': ['dist/js/plugin/jquery.js'],
 				'../markup/js/script.min.js': ['dist/js/script.js'],
 				'../markup/js/swiper.min.js': ['dist/js/plugin/swiper.js'],
-				'../markup/js/home.min.js': ['dist/js/home.js']
+				'../markup/js/home.min.js': ['dist/js/home.js'],
+				'../markup/js/companies.min.js': ['dist/js/companies.js'],
+				
 			}
 		}
 	},
@@ -86,6 +88,7 @@ grunt.initConfig({
 						header: '<%= fixturesPath %>/templates/header.html',
 						footer: '<%= fixturesPath %>/templates/footer.html',
 						sidebar: '<%= fixturesPath %>/templates/sidebar.html',
+						popups: '<%= fixturesPath %>/templates/popups.html',
 					}
                 },
             }

@@ -31,3 +31,5 @@
 .icon-modeling:before { content: '\e81d'; } /* '' */
 .icon-app:before { content: '\e81e'; } /* '' */
 .icon-simulation:before { content: '\e81f'; } /* '' */
+.icon-down:before { content: '\e820'; } /* '' */
+.icon-up:before { content: '\e821'; } /* '' */

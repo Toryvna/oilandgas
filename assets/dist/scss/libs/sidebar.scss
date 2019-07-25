@@ -153,7 +153,7 @@
             }
         }
         .tags{
-            padding: 30px 20px;
+            padding: 30px 20px 14px;
             a{
                 display: inline-block;
                 border-radius: 2px;
@@ -172,6 +172,32 @@
     .sidebar{
         width: 30%;
         margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1240px){
+    .sidebar{
+        width: calc(25% - 13px);
+        margin-top: 8px;
+        &-item {
+            .heading {
+                padding: 24px 25px;
+            }
+            .posts{
+                .post{
+                    padding: 19px 20px 18px;
+                }
+            }
+            .ads {
+                margin: 30px 20px;
+                padding: 146px 57px;
+            }
+            .meetings{
+                .meeting{
+                    padding: 15px 20px;
+                }
+            }
+        }
     }
 }
 
